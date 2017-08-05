@@ -4,12 +4,28 @@ body {
     font: 300 15px/1.6 'Lato', sans-serif;
     color: #545454;
     font-weight: bold;
-    background-image: url("../img/WhiteBackground3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size:cover;
+}
+
+.hex-back-dark {
+background:
+radial-gradient(circle farthest-side at 0% 50%,#000 23.5%,rgba(2,2,2,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,#111 24%,rgba(2,2,2,0) 0)19px 30px,
+linear-gradient(#000 14%,rgba(2,2,2,0) 0, rgba(2,2,2,0) 85%,#000 0)0 0,
+linear-gradient(150deg,#000 24%,#111 0,#111 26%,rgba(2,2,2,0) 0,rgba(2,2,2,0) 74%,#111 0,#111 76%,#000 0)0 0,
+linear-gradient(30deg,#000 24%,#111 0,#111 26%,rgba(2,2,2,0) 0,rgba(2,2,2,0) 74%,#111 0,#111 76%,#000 0)0 0,
+linear-gradient(90deg,#111 2%,#000 0,#000 98%,#111 0%)0 0 #000;
+background-size:40px 60px;   
+}
+
+.hex-back-lite {
+background:
+radial-gradient(circle farthest-side at 0% 50%,#eee 23.5%,rgba(2,2,2,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,#999 24%,rgba(2,2,2,0) 0)19px 30px,
+linear-gradient(#eee 14%,rgba(2,2,2,0) 0, rgba(2,2,2,0) 85%,#eee 0)0 0,
+linear-gradient(150deg,#eee 24%,#999 0,#999 26%,rgba(2,2,2,0) 0,rgba(2,2,2,0) 74%,#999 0,#999 76%,#eee 0)0 0,
+linear-gradient(30deg,#eee 24%,#999 0,#999 26%,rgba(2,2,2,0) 0,rgba(2,2,2,0) 74%,#999 0,#999 76%,#eee 0)0 0,
+linear-gradient(90deg,#999 2%,#eee 0,#eee 98%,#999 0%)0 0 #eee;
+background-size:40px 60px;   
 }
 
 nav img {
@@ -17,7 +33,7 @@ nav img {
   max-height: 30px;
 }
 .pome {
-    color: coral;
+    color: #b30000;
 }
 
 img {
@@ -62,7 +78,7 @@ h6 {
     font-size: 13px;
 }
 #services h4 {
-    color: coral;
+    color: #b30000;
 }
 .profile-item h5 {
     cursor: pointer;
@@ -144,19 +160,19 @@ a, .btn, .navbar, .form-control, .portfolio-item-description {
 }
 .btn-custom-1, .btn-custom-2 {
     background: transparent;
-    border: 2px solid coral;
+    border: 2px solid #b30000;
     padding: 15px 25px;
 }
 .btn-custom-2 {
-    border: 2px solid coral;
+    border: 2px solid #b30000;
 }
 .btn-custom-1:hover, .btn-custom-1:focus, .btn-custom-1:active, .btn-custom-1.active {
-    background: coral;
-    border: 2px solid coral;
+    background: #b30000;
+    border: 2px solid #b30000;
     color: #FFF;
 }
 .btn-custom-2:hover, .btn-custom-2:focus, .btn-custom-2:active, .btn-custom-2.active {
-    background: coral;
+    background: #b30000;
     border: 2px solid #222;
     color: #FFF;
 }
@@ -171,7 +187,7 @@ a, .btn, .navbar, .form-control, .portfolio-item-description {
     margin: 10px -2px 20px -2px;
 }
 .skill-bar .skill-rate-on {
-    background: coral;
+    background: #b30000;
 }
 .skill-rate-on, .skill-rate-off {
     display: table-cell;
@@ -231,8 +247,8 @@ section.callout {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
-    border-top: 2px solid coral;
-    border-bottom: 2px solid coral;
+    border-top: 2px solid #b30000;
+    border-bottom: 2px solid #b30000;
 }
 
 #services {
@@ -243,14 +259,14 @@ section.callout {
 }
 .callout h3 {
     font-weight: bold;
-    color: coral;
+    color: #b30000;
 }
 .headline {
     margin: 0 0 60px;
 }
 .headline p {
     font-weight: 700;
-    color: coral;
+    color: #b30000;
 
 }
 .callout-btn {
@@ -304,7 +320,7 @@ h3>.fa {
 .mouse-icon .wheel {
     position: relative;
     border-radius: 10px;
-    background: coral;
+    background: #b30000;
     width: 4px;
     height: 10px;
     top: 4px;
@@ -336,14 +352,14 @@ h3>.fa {
 .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .nav li.active {
     background: none;
     outline: 0;
-    color: coral;
+    color: #b30000;
 }
 .navbar-custom .navbar-brand {
     font: 700 18px/1.2 'Lato', sans-serif;
     color: #FFF;
 }
 .navbar-custom .navbar-nav>li.active {
-    border-bottom: 3px solid coral;
+    border-bottom: 3px solid #b30000;
 }
 .navbar-custom .navbar-toggle .icon-bar {
     background: #FFF;
@@ -357,14 +373,14 @@ h3>.fa {
     background: rgba(255,255,255,.82);
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);
     padding: 0;
-    border-bottom: 1px solid coral;
+    border-bottom: 1px solid #b30000;
 }
 .navbar-color .navbar-brand, .custom-collapse .navbar-brand, .navbar-color .navbar-nav>li>a, .navbar-color .navbar-nav .dropdown-menu>li>a, .custom-collapse .navbar-nav>li>a, .custom-collapse .navbar-nav .dropdown-menu>li>a {
-    color: coral;
+    color: #b30000;
 
 }
 .navbar-color .navbar-nav>li.active {
-    border-bottom: 3px solid coral;
+    border-bottom: 3px solid #b30000;
 }
 .custom-collapse .navbar-nav {
     text-align: left;
@@ -373,13 +389,13 @@ h3>.fa {
     border: 0;
 }
 .navbar-color .navbar-toggle .icon-bar, .custom-collapse .navbar-toggle .icon-bar {
-    background: coral;
+    background: #b30000;
 }
 #intro {
     padding: 260px 0 160px 0;
     text-align: center;
     color: #FFF;
-    background: url("../img/HeaderBackgroundOption2.PNG") ;
+    background: url("../img/Hwy28-bw.jpg") ;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -389,25 +405,25 @@ h3>.fa {
     color: #FFF;
 }
 #intro h3, #resume h4 {
-    color: coral;
+    color: #b30000;
     font-family: 'Fira Sans', sans-serif;
 }
 .hello {
     margin: 0 0 100px;
 }
 .page .widget-social li a {
-    background: coral;
+    background: #b30000;
 }
 #profile-contact {
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);
     padding: 20px 0;
-    border-top: 5px solid coral;
+    border-top: 5px solid rgba(2,2,2,.65);
 }
 .profile-item i {
     display: block;
     line-height: 42px;
     font-size: 32px;
-    color: coral;
+    color: #b30000;
 }
 .conInfo{
 }
@@ -433,7 +449,7 @@ h3>.fa {
     color: #FFF;
 }
 .widget-social li a:hover {
-    background: coral;
+    background: #b30000;
 }
 .service {
     margin: 0 0 40px;
@@ -483,7 +499,7 @@ h3>.fa {
 }
 .portfolio-item:hover .portfolio-item-description {
     color: white;
-    background-color: coral;
+    background-color: #b30000;
     opacity: 1;
     bottom: 0;
 }
@@ -516,7 +532,7 @@ h3>.fa {
   width: 40%;
   height: 1px;
   margin-left: -20%;
-  background: coral;
+  background: #b30000;
 }
 
 .separator{
