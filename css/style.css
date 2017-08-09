@@ -28,6 +28,18 @@ linear-gradient(90deg,#999 2%,#eee 0,#eee 98%,#999 0%)0 0 #eee;
 background-size:40px 60px;   
 }
 
+.hex-back-lite2 {
+background:
+radial-gradient(circle farthest-side at 0% 50%,#ddd 23.5%,rgba(2,2,2,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,#666 24%,rgba(2,2,2,0) 0)19px 30px,
+linear-gradient(#ddd 14%,rgba(2,2,2,0) 0, rgba(2,2,2,0) 85%,#ddd 0)0 0,
+linear-gradient(150deg,#ddd 24%,#666 0,#666 26%,rgba(2,2,2,0) 0,rgba(2,2,2,0) 74%,#666 0,#666 76%,#ddd 0)0 0,
+linear-gradient(30deg,#ddd 24%,#666 0,#666 26%,rgba(2,2,2,0) 0,rgba(2,2,2,0) 74%,#666 0,#666 76%,#ddd 0)0 0,
+linear-gradient(90deg,#666 2%,#ddd 0,#ddd 98%,#666 0%)0 0 #ddd;
+background-size:40px 60px;   
+}
+
+
 nav img {
   max-width: 30px;
   max-height: 30px;
@@ -77,21 +89,18 @@ h5 {
 h6 {
     font-size: 13px;
 }
-#services h4 {
-    color: #b30000;
-}
-.profile-item h5 {
+.interests-item h5 {
     cursor: pointer;
     color: black;
 }
-a, .btn, .navbar, .form-control, .portfolio-item-description {
+a, .btn, .navbar, .form-control, .passion-item-description {
     -webkit-transition: all 0.125s ease-in-out 0s;
     -moz-transition: all 0.125s ease-in-out 0s;
     -ms-transition: all 0.125s ease-in-out 0s;
     -o-transition: all 0.125s ease-in-out 0s;
     transition: all 0.125s ease-in-out 0s;
 }
-.portfolio-item-preview {
+.passion-item-preview {
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -ms-transition: all 0.3s ease-in-out 0s;
@@ -250,13 +259,6 @@ section.callout {
     border-top: 2px solid #b30000;
     border-bottom: 2px solid #b30000;
 }
-
-#services {
-    padding: 0;
-}
-#services .fa {
-    color: #000;
-}
 .callout h3 {
     font-weight: bold;
     color: #b30000;
@@ -404,7 +406,7 @@ h3>.fa {
 #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
     color: #FFF;
 }
-#intro h3, #resume h4 {
+#intro h3, #life h4 {
     color: #b30000;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -414,12 +416,12 @@ h3>.fa {
 .page .widget-social li a {
     background: #b30000;
 }
-#profile-contact {
+#interests-contact {
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);
     padding: 20px 0;
     border-top: 5px solid rgba(2,2,2,.65);
 }
-.profile-item i {
+.interests-item i {
     display: block;
     line-height: 42px;
     font-size: 32px;
@@ -427,7 +429,7 @@ h3>.fa {
 }
 .conInfo{
 }
-.profile-widget {
+.interests-widget {
     margin-bottom: 40px;
 }
 .widget-social {
@@ -474,7 +476,7 @@ h3>.fa {
     margin-top: 20px;
 }
 
-.portfolio-item {
+.passion-item {
   color: white;
   width: auto;
   height: 20rem;
@@ -485,11 +487,11 @@ h3>.fa {
     margin-bottom: 20px;
     overflow: hidden;
 }
-.portfolio-item-preview {
+.passion-item-preview {
     position: relative;
     text-align: center;
 }
-.portfolio-item:hover .portfolio-item-preview {
+.passion-item:hover .passion-item-preview {
   color: white;
     -webkit-transform: scale(1.1) rotate(2deg);
     -moz-transform: scale(1.3) rotate(3deg);
@@ -497,13 +499,13 @@ h3>.fa {
     -o-transform: scale(1.3) rotate(3deg);
     transform: scale(1.2) rotate(3deg);
 }
-.portfolio-item:hover .portfolio-item-description {
+.passion-item:hover .passion-item-description {
     color: white;
     background-color: #b30000;
     opacity: 1;
     bottom: 0;
 }
-.portfolio-item-description {
+.passion-item-description {
     background: rgba(211, 168, 0, .8);
     position: absolute;
     right: 0;
@@ -516,15 +518,15 @@ h3>.fa {
     border-radius: 3px;
     box-shadow: 0px 2px 10px 2px #666;
 }
-.portfolio-item-description h3
+.passion-item-description h3
 {
   color: white;
 }
-#portfolio, #profile, #services, #resume{
+#passion, #interests, #life{
   padding: 5rem;
 }
 
-#portfolio::before, #profile::before, #services::before, #resume::before{
+#passion::before, #interests::before, #life::before{
   content:"";
   position: absolute;
   top:0;
@@ -539,7 +541,7 @@ h3>.fa {
   padding-top: 5rem;
 }
 
-#portfolio img {
+#passion img {
   width: 100%;
 }
 
@@ -572,7 +574,7 @@ h3>.fa {
     .wrapper {
         text-align: center;
     }
-    #profile-contact .profile-item {
+    #interests-contact .interests-item {
         margin: 0 0 20px;
     }
     #stats .stat {
