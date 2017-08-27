@@ -253,7 +253,7 @@ a, .btn, .navbar, .form-control, .passion-item-description {
     padding: 120px 0;
 }
 section.callout {
-    background: url("../img/techBackground.jpg");
+    background: url("../img/operationcode_logo.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -264,6 +264,9 @@ section.callout {
 .callout h3 {
     font-weight: bold;
     color: #b30000;
+}
+.opc {
+    color: #fff !important;
 }
 .headline {
     margin: 0 0 60px;
@@ -487,7 +490,7 @@ h3>.fa {
 .passion-item {
   color: white;
   width: auto;
-  height: 20rem;
+/*  height: 20rem; */
     -webkit-margin-bottom: 20px;
     -moz-margin-bottom: 20px;
     -ms-margin-bottom: 20px;
