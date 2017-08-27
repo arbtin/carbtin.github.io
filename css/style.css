@@ -1,7 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Fira+Sans:400,700);
-@import url(//fonts.googleapis.com/css?family=Lato:400,300,700);
 body {
-    font: 300 15px/1.6 Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 300 15px/1.6 Circular,"Helvetica Neue",Helvetica,sans-serif;
     color: #545454;
     font-weight: bold;
 }
@@ -59,7 +57,7 @@ a:hover {
     color: #C4C4C4;
 }
 h1, h2, h3, h4, h5, h6 {
-    font: 400 46px/1.2 'Lato', sans-serif;
+    font: 400 46px/1.2 Circular,"Helvetica Neue",Helvetica, sans-serif;
     margin: 5px 0 5px;
     color: #222;
 }
@@ -106,6 +104,10 @@ a, .btn, .navbar, .form-control, .passion-item-description {
     -ms-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+}
+
+.fa-envelope-o, .fa-map-marker {
+    color: #b30000;
 }
 
 .btn, .panel, .progress, .form-control, .modal-content, .form-control:hover, .form-control:focus {
@@ -357,7 +359,7 @@ h3>.fa {
     color: #b30000;
 }
 .navbar-custom .navbar-brand {
-    font: 700 18px/1.2 'Lato', sans-serif;
+    font: 700 18px/1.2 'Roboto', sans-serif;
     color: #FFF;
 }
 .navbar-custom .navbar-nav>li.active {
@@ -369,7 +371,7 @@ h3>.fa {
 .navbar-custom .navbar-nav>li>a, .navbar-custom .navbar-nav .dropdown-menu>li>a {
     color: #FFF;
     font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar-color, .custom-collapse {
     background: rgba(255,255,255,.82);
@@ -397,7 +399,7 @@ h3>.fa {
     padding: 260px 0 160px 0;
     text-align: center;
     color: #FFF;
-    background: url("../img/Hwy28-bw.jpg") ;
+    background: url("../img/Hwy28-bw-sm.jpg") ;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -422,7 +424,6 @@ h3>.fa {
     border-top: 5px solid rgba(2,2,2,.65);
 }
 #passion-contact {
-    box-shadow: 0 0 4px rgba(0,0,0,.2);
     padding: 20px 0;
     border-top: 5px solid rgba(2,2,2,.65);
 }
@@ -480,7 +481,9 @@ h3>.fa {
 .owl-theme .owl-controls .owl-pagination {
     margin-top: 20px;
 }
-
+.passion-contact {
+  height: 5rem;  
+}
 .passion-item {
   color: white;
   width: auto;
@@ -535,8 +538,8 @@ h3>.fa {
   content:"";
   position: absolute;
   top:0;
-  left:50%;
-  width: 40%;
+  left:40%;
+  width: 60%;
   height: 1px;
   margin-left: -20%;
   background: #b30000;
