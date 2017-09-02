@@ -254,7 +254,8 @@ a, .btn, .navbar, .form-control, .passion-item-description {
 }
 section.callout {
     background: url("../img/operationcode_logo.svg");
-    background-size: cover;
+    background-color: #3f3f3f;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
